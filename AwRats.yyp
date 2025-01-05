@@ -46,6 +46,8 @@
     {"id":{"name":"squeak_6","path":"sounds/squeak_6/squeak_6.yy",},},
     {"id":{"name":"squeak_7","path":"sounds/squeak_7/squeak_7.yy",},},
     {"id":{"name":"squeak_8","path":"sounds/squeak_8/squeak_8.yy",},},
+    {"id":{"name":"spr_GUI_bg","path":"sprites/spr_GUI_bg/spr_GUI_bg.yy",},},
+    {"id":{"name":"spr_GUI_button","path":"sprites/spr_GUI_button/spr_GUI_button.yy",},},
     {"id":{"name":"spr_rat","path":"sprites/spr_rat/spr_rat.yy",},},
     {"id":{"name":"spr_tile_white","path":"sprites/spr_tile_white/spr_tile_white.yy",},},
   ],

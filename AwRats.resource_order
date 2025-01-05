@@ -25,6 +25,8 @@
     {"name":"squeak_6","order":5,"path":"sounds/squeak_6/squeak_6.yy",},
     {"name":"squeak_7","order":6,"path":"sounds/squeak_7/squeak_7.yy",},
     {"name":"squeak_8","order":7,"path":"sounds/squeak_8/squeak_8.yy",},
+    {"name":"spr_GUI_bg","order":3,"path":"sprites/spr_GUI_bg/spr_GUI_bg.yy",},
+    {"name":"spr_GUI_button","order":2,"path":"sprites/spr_GUI_button/spr_GUI_button.yy",},
     {"name":"spr_tile_white","order":1,"path":"sprites/spr_tile_white/spr_tile_white.yy",},
   ],
 }

@@ -1,7 +1,7 @@
-/// @desc Undefined Description
+/// @desc Define Size, Type, Initial Target
 
-size = random_range(minSize,maxSize);
-type = random(sprite_get_number(sprite_index));
+if obj_controller.sizeRandom { size = random_range(minSize,maxSize); } else { size = global.size; }
+if obj_controller.typeRandom { type = random(sprite_get_number(sprite_index)); } else { type = global.type; }
 
 tX = random(room_width);
 tY = random(room_height);

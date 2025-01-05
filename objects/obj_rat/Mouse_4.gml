@@ -1,5 +1,7 @@
-/// @desc Undefined Description
+/// @desc Squish Rat
 
-rSound = choose(squeak_1,squeak_2,squeak_3,squeak_4,squeak_5,squeak_6,squeak_7,squeak_8)
-audio_play_sound(rSound,1,false);
-instance_destroy(self);
+if !point_in_rectangle(mouse_x,mouse_y,obj_controller.boundsX1,obj_controller.boundsY1,obj_controller.boundsX2,obj_controller.boundsY2) { //if mouse NOT within menu bounds
+	rSound = choose(squeak_1,squeak_2,squeak_3,squeak_4,squeak_5,squeak_6,squeak_7,squeak_8)
+	audio_play_sound(rSound,1,false);
+	instance_destroy(self);
+}

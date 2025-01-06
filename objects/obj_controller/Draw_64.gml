@@ -36,6 +36,13 @@ if menuOpen {
 	draw_sprite_stretched(spr_GUI_button,0,buttonRandomX,buttonRow2Y,32,32);
 	draw_sprite(spr_GUI_buttonlabel,3,buttonRandomX,buttonRow2Y);
 	
+	//coming soon text
+	draw_set_alpha(1);
+	draw_set_color(c_red);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text(options_BG_X+(options_BG_W/2),buttonRow3Y+40,"more\noptions\ncoming\nsoon");
+	
 	/* not implemented yet
 	
 	//Move Speed
@@ -81,4 +88,4 @@ draw_set_color(c_black);
 draw_set_font(fnt_default);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
-draw_text(16,room_height-16,"Rats Remaining: " + string(instance_number(obj_rat)));
+draw_text(16,room_height-16,"Rats Squished: " + string(currentScore));

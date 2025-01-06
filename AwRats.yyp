@@ -35,9 +35,11 @@
   "name":"AwRats",
   "resources":[
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
+    {"id":{"name":"credits","path":"notes/credits/credits.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"defineParticles","path":"scripts/defineParticles/defineParticles.yy",},},
     {"id":{"name":"squeak_1","path":"sounds/squeak_1/squeak_1.yy",},},
     {"id":{"name":"squeak_2","path":"sounds/squeak_2/squeak_2.yy",},},
     {"id":{"name":"squeak_3","path":"sounds/squeak_3/squeak_3.yy",},},
